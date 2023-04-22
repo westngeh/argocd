@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/obinnaaliogor/argocd.git #add your repo url here, the repo argocd will monitor
+    repoURL: https://github.com/westngeh/argocd.git #add your repo url here, the repo argocd will monitor
     targetRevision: HEAD
     path: deploymentDir #Path or directory where your deployment files are located. That argocd will monitor
   destination:
